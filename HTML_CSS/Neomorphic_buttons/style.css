@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&display=swap%27%29%3B");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.neomorphic-btn {
+    background-color: #e0e0e0;
+    border-radius: 30px;
+    box-shadow: 7px 7px 15px #bebebe, -7px -7px 15px #ffffff;
+    color: #006c97;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.1s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin: 0 10px;
+}
+
+.neomorphic-btn:hover {
+    box-shadow: 7px 7px 15px #bebebe,
+    inset -7px -7px 15px #ffffff;
+}
+
+.neomorphic-btn:active{
+    box-shadow: 3px 3px 6px #bebebe,
+    inset -3px -3px 6px #ffffff ;
+    color: #b45a5a;
+
+
+} 
+
