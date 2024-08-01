@@ -58,7 +58,12 @@
     justify-content: center;
     backdrop-filter: blur(40px);
     border: 2px rgb(240, 167, 167) solid;
-    cursor: pointer;
+
+}
+
+.clock:hover {
+    background: rgba(0, 208, 255, 0.11);
+    box-shadow: 0 0 110px crimson;
 }
 
 .clock span {
